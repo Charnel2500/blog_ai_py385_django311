@@ -3,4 +3,13 @@ from django.views.generic import TemplateView
 
 
 class HomePageView(TemplateView):
-    template_name = 'home.html'
+    template_name = 'pages/index.html'
+
+class HistoryPageView(TemplateView):
+    template_name = 'pages/historia.html'
+
+class PresentPageView(TemplateView):
+    template_name = 'pages/ai_obecnie.html'
+
+class PhilosophyPageView(TemplateView):
+    template_name = 'pages/filozofia.html'
