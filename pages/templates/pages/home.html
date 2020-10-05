@@ -1,2 +1,13 @@
-<!-- templates/home.html -->
-<h1>Homepage</h1>
+{% extends 'pages/base.html' %}
+{% block content %}
+<p>Sztuczna inteligencja z dnia na dzień rozwija się coraz bardziej. Z dnia na dzień obserwujemy jak z każdym dniem zyskuje nowe
+umiejętności. Na tej stronie możesz być świadkiem i na bieżąco śledzić jej rozwój. Przeszłość zaczyna się dziś.</p>
+<ol>Strona dzieli się na sekcje:
+    <li>Newsy, czyli wiadomości ze świata sztucznej inteligencji.</li>
+    <li>Historia - w tej sekcji zostanie opisany rozwój sztucznej inteligencji w przeszłości</li>
+    <li>AI obecnie - tutaj znajdziesz informacje, na jakim poziomie znajduje się obecnie sztuczna inteligencja</li>
+    <li>Filozofia AI - czy AI może stać się człowiekiem. Czy AI może mieć uczucia. Czy AI ma świadomość. Postaramy się odpowiedzieć
+    na te pytania w tej sekcji.</li>
+    <li>Chatbot - tutaj znajdziesz linki do najpopularniejszych chatbotów, z którymi mógłbyś porozmawiać.</li>
+</ol>
+{% endblock %}

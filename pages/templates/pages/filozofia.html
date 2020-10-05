@@ -1,49 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<link>
-    <meta charset="UTF-8">
-    <title>Strona startowa</title>
-    <link rel="stylesheet" href="base.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-</head>
-<body>
-  <div class="container">
-    <h1>Witaj użytkowniku w świecie sztucznej inteligencji</h1>
-    <section>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <a class="navbar-brand" href="index.html">Strona Główna</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="newsy.html"> Newsy <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="historia.html"> Historia </a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="AI obecnie.html"> AI obecnie <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="filozofia.html"> Filozofia AI <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="chatbot.html"> Chatbot <span class="sr-only">(current)</span></a>
-            </li>
-	    <li class="nav-item active">
-              <a class="nav-link" href="rozmowa.html"> Rozmowa z moim chatbotem <span class="sr-only">(current)</span></a>
-            </li>
-
-        </div>
-      </nav>
-    </section>
-
+{% extends 'pages/base.html' %}
+{% block content %}
     <span>
       <h2>Filozofia sztucznej inteligencji</h2>
       Filozofia sztucznej inteligencji – gałąź filozofii, w której przedmiotem dyskusji są problemy dotyczące „myślących
@@ -56,7 +12,4 @@
 
 Te pytania są przedmiotem zainteresowania badaczy sztucznej inteligencji, filozofów, psychologów poznawczych, specjalistów w
 dziedzinie kognitywistyki i lingwistyki. </span>
-    <img src="AI.jpg" alt="Nie znaleziono obrazu">
-  </div>
-</body>
-</html>
+{% endblock %}
