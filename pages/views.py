@@ -13,3 +13,9 @@ class PresentPageView(TemplateView):
 
 class PhilosophyPageView(TemplateView):
     template_name = 'pages/filozofia.html'
+
+class ChatbotPageView(TemplateView):
+    template_name = 'pages/chatbot.html'
+
+class TalkPageView(TemplateView):
+    template_name = 'pages/rozmowa.html'
