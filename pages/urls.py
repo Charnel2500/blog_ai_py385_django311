@@ -7,7 +7,7 @@ urlpatterns = [
     path('history/', HistoryPageView.as_view(), name='history'),
     path('present/', PresentPageView.as_view(), name='present'),
     path('philosophy/', PhilosophyPageView.as_view(), name='philosophy'),
-    path('chatbot/', PhilosophyPageView.as_view(), name='chatbot'),
-    path('talk/', PhilosophyPageView.as_view(), name='talk'),
+    path('chatbot/', ChatbotPageView.as_view(), name='chatbot'),
+    path('talk/', TalkPageView.as_view(), name='talk'),
 
 ]
