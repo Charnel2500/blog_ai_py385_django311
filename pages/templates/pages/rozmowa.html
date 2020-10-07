@@ -1,7 +1,13 @@
+
 {% extends 'pages/base.html' %}
+
 {% block content %}
+{% load static %}
+
     <span>
       <h2>Porozmawiaj z moim chatbotem</h2>
-      Porozmawiaj z moim chatbotem, śmiało zadaj mu jakieś pytanie. </span>
-    <img src="rozmowa.jpg" alt="Nie znaleziono obrazu">
+      Porozmawiaj z moim chatbotem, śmiało zadaj mu jakieś pytanie.
+    </span>
+    <img src="{% static "images/rozmowa.jpg" %}" alt="Images not found">
+
     {% endblock %}
