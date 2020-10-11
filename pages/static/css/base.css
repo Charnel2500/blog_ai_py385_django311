@@ -2,12 +2,9 @@
 property: value;
 }*/
 body{
-    background-image: url(zima.jpg);
+    background-image: url("/static/img/sample.jpeg");
 
     /* top, right, bottom, left */
     margin: 10px 30px 30px 30px;
-    color: white;
-}
-h1{
-    color: red;
+    color: black;
 }
