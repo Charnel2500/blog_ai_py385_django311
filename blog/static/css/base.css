@@ -1,0 +1,10 @@
+/* selected tag{
+property: value;
+}*/
+body{
+    background-image: url("/static/images/zima.jpg");
+
+    /* top, right, bottom, left */
+    margin: 10px 30px 30px 30px;
+    color: black;
+}
